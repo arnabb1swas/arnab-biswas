@@ -1,0 +1,181 @@
+body {
+  font-family: "Satisfy", cursive;
+  background-image: linear-gradient(to right, #e646b6, #6157ff);
+}
+
+h1 {
+  font-family: "Lobster", cursive;
+  font-size: 3rem;
+  line-height: 2;
+}
+
+h2,
+h3,
+h5 {
+  font-family: "Pacifico", cursive;
+  font-size: 2rem;
+  line-height: 2;
+}
+
+p {
+  font-family: "Satisfy", cursive;
+  font-size: 1.5rem;
+}
+
+b {
+  font-family: "Archivo", sans-serif;
+}
+
+span,
+label {
+  font-family: "Lobster", cursive;
+}
+
+strong {
+  font-family: "Caveat", cursive;
+}
+
+a {
+  color: black;
+}
+
+.container-fluid {
+  padding: 2.5% 5%;
+}
+
+/* Navbar */
+.navbar {
+  padding: 0 0 3rem;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 20px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/* Title */
+.starting-text {
+  padding-top: 4rem;
+}
+
+.bg-img {
+  height: 450px;
+  width: 690px;
+}
+
+.download-btn {
+  margin: 3% 0;
+}
+
+.heading-desc,
+.heading {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.about-img {
+  border-radius: 15%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about-social {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.details {
+  font-family: "Caveat", cursive;
+  font-size: 1.5rem;
+}
+
+/* Skills */
+.progress {
+  margin-bottom: 10px;
+}
+
+/* Project */
+.project {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5% 3%;
+  text-align: center;
+}
+
+.card-body {
+  text-align: center;
+  height: 333px;
+}
+
+.card-pic {
+  height: 200px;
+}
+
+/* Testimonials */
+.testimonials {
+  text-align: center;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.press {
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Footer */
+.footer {
+  padding-left: 3px;
+  font-family: serif;
+  font-size: 0.75rem;
+  text-align: center;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+/* Media Queries */
+@media (max-width: 700px) {
+  .title {
+    text-align: center;
+  }
+
+  .bg-img {
+    position: absolute;
+    opacity: 0.2;
+    width: 450px;
+    height: 800px;
+  }
+}
+
+@media (max-width: 1025px) {
+  .title {
+    text-align: center;
+  }
+
+  .bg-img {
+    position: absolute;
+    right: -2%;
+  }
+}
